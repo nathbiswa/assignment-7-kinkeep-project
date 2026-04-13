@@ -1,9 +1,14 @@
 import React from 'react';
+import HeroSection from '../../Sections/HomeSection/HeroSection';
+import HomeCart from '../../Sections/HomeSection/HomeCart';
+import HomeFriends from '../../Sections/HomeSection/HomeFriends';
 
 const HomePage = () => {
     return (
         <div>
-            Home Page
+            <HeroSection/>
+            <HomeCart/>
+            <HomeFriends/>
         </div>
     );
 };
