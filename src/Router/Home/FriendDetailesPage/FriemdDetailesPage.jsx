@@ -133,36 +133,36 @@ const FriendDetailesPage = () => {
               <div className="shadow-sm bg-white  p-4 rounded-sm w-full mt-4">
                 <h1 className="text-[10px] md:text-2xl font-semibold py-3">Quick Check-In</h1>
                 <div className="flex items-center justify-between gap-3">
-                  <NavLink
+                  <button
                     onClick={() => handleCallFriend()}
-                    to={`/timeline`}
+                    // to={`/timeline`}
                     className="shadow-sm bg-gray-100 w-full p-4 rounded-sm text-center "
                   >
                     <span className="text-[10px] md:text-2xl font-bold ">
                       <FaPhoneVolume className="mx-auto mb-1" />
                     </span>
                     <p className="text-[8px] md:text-xl text-gray-400">Call</p>
-                  </NavLink>
-                  <NavLink
+                  </button>
+                  <button
                     onClick={() => handleMessegeFriend()}
-                    to={`/timeline`}
+                    // to={`/timeline`}
                     className="shadow-sm w-full bg-gray-100 p-4 rounded-sm text-center"
                   >
                     <span className="text-[10px] md:text-2xl font-bold">
                       <BiSolidMessageDots className="mx-auto mb-1" />
                     </span>
                     <p className="text-[8px] md:text-xl text-gray-400">Text</p>
-                  </NavLink>
-                  <NavLink
+                  </button>
+                  <button
                     onClick={() => handleVideoFriend()}
-                    to={`/timeline`}
+                    // to={`/timeline`}
                     className="shadow-sm w-full bg-gray-100 p-4 rounded-sm text-center"
                   >
                     <span className="text-[10px] md:text-2xl font-bold">
                       <IoVideocamOutline className="mx-auto mb-1" />
                     </span>
                     <p className="text-[8px] md:text-xl text-gray-400">Video</p>
-                  </NavLink>
+                  </button>
                 </div>
               </div>
             </div>
