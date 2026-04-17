@@ -12,6 +12,7 @@
 - Context API (for managing states)
 - DaisyUI 
 - JSON Data
+- React chart
 - React Icon, React Dom, React Spinner, and Toasty
 
 # Key Features :

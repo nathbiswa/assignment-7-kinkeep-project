@@ -1,10 +1,12 @@
-import { createBrowserRouter } from "react-router";
+
 import RootLayout from "../RootLayout/RootLayout";
 import HomePage from "./Home/HomePage";
-import TimeLInePage from "../Pages/TimeLinePage/TimeLInePage";
 import StatsPage from "../Pages/StatsPage/StatsPage";
 import FriemdDetailesPage from "./Home/FriendDetailesPage/FriemdDetailesPage";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
+import TimeLinePage from "../Pages/TimeLinePage/TimeLInePage";
+import { createBrowserRouter } from "react-router-dom";
+
 
 export const router = createBrowserRouter([
     {
@@ -21,7 +23,7 @@ export const router = createBrowserRouter([
         },
         {
             path: "/timeline",
-            element: <TimeLInePage/>
+            element: <TimeLinePage/>
         },
         {
             path: "/stats",

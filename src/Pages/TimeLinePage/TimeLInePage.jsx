@@ -51,7 +51,7 @@ const TimeLinePage = () => {
             className="border px-4 py-1 rounded"
             onChange={(e) => setFilterType(e.target.value)}
           >
-            <option value="all">All</option>
+            <option value="all">Filter timeline</option>
             <option value="call">Call</option>
             <option value="text">Text</option>
             <option value="video">Video</option>
