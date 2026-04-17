@@ -8,7 +8,7 @@ import logo from "../../assets/img/logo.png"
 
 const NavBar = () => {
   return (
-    <div className="shadow-sm">
+    <div className="shadow-sm ">
       <div className="container mx-auto navbar bg-base-100">
         <div className="flex-1">
           <img src={logo} alt="" className="w-[100px] md:w-auto h-[20px] md:h-[45px]" />

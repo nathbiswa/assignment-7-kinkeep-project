@@ -1,16 +1,25 @@
-# React + Vite
+# Project name:
+- kin-keeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Description: 
+- Kin-Keeper is an easy-to-use program that helps users maintain relationships with their loved ones. It enables users to manage conversations, keep track of significant connections, and uphold meaningful relationships in an orderly manner. The project's objective is to facilitate everyday communication and connection management.
 
-Currently, two official plugins are available:
+# Technologies used: 
+- React.js
+- JavaScript (ES6+)
+- CSS for Tailwind
+- Router for React
+- Context API (for managing states)
+- DaisyUI 
+- JSON Data
+- React Icon, React Dom, React Spinner, and Toasty
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Key Features :
+- A list of friends or contacts can be added, viewed, and managed.
+- I csn track of my relationships, such as those with close friends, workers, and family.
+- Action buttons for calls, messages, or videos
+- Options for dynamic sorting and filtering
+- Mobile and desktop responsive design
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ 
